@@ -1,0 +1,260 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #060A19;
+    background-image: radial-gradient(
+        at 7.14% 81.61%,
+        rgba(19, 114, 144, 0.5) 0%,
+        rgba(0, 0, 0, 0) 25%
+    ),
+    radial-gradient(
+        at 91.96% 86.28%,
+        rgba(30, 184, 8, 0.5) 0%,
+        rgba(92, 45, 153, 0) 25%
+    ),
+    radial-gradient(
+        at 5.24% 52.09%,
+        rgba(30, 94, 140, 0.5) 0%,
+        rgba(0, 0, 0, 0) 25%
+    ),
+    radial-gradient(
+        at 88.84% 50.53%,
+        rgba(30, 184, 8, 0.5) 0%,
+        rgba(0, 0, 0, 0) 25%
+    ),
+    radial-gradient(
+        at 1.01% 18.2%,
+        rgba(30, 94, 140, 0.5) 0%,
+        rgba(0, 0, 0, 0) 25%
+    ),
+    radial-gradient(
+        at 69.46% 19.1%,
+        rgba(10, 207, 227, 0.5) 0%,
+        rgba(0, 0, 0, 0) 25%
+    );
+}
+.navbar-toggler{
+    background-color:#404040;
+}
+
+
+header{
+    padding: 0 5rem;
+    background-image: url("img/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header li{
+    margin: 0 0.3rem;
+
+}
+
+.hero{
+    padding: 5rem 0;
+}
+
+.hero-right{
+    background-image: url("img/bg1-r.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.second-out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mycard{
+    margin: -2.5rem 3rem 0 -0.8rem;
+}
+ 
+#mycard .card{
+    width: 13rem;
+    height: 17rem ;
+    border-radius: 0.8rem 0.8rem 0 0 ;
+    background-color: #4D4C4C;
+}
+
+
+#mycard img{
+    margin: 1rem;
+    width: 11rem;
+    height: 15rem;
+    border-radius: 0.8rem;
+}
+
+#mycard h5{
+    color: white;
+}
+
+#second{
+    margin: 2rem auto;
+}
+
+
+
+
+/* #second div {
+	width: 86.3125rem;
+	height: 35.625rem;
+	flex-shrink: 0;
+	background: url("img/video.png"), lightgray 50% / cover no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+
+#third {
+    margin: 5rem;
+    color: white;
+    padding: 0 4rem;
+}
+
+#forth{
+
+}
+
+#forth .card{
+    padding: 5%;
+    border: 1px solid #FFF;
+background: linear-gradient(153deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%);
+box-shadow: 0px 0px 53px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(21px);
+color: white;
+}
+
+#forth img{
+    width: 30%;
+
+}
+
+.fifth-left p{
+    margin-top: 2%;
+}
+
+
+#sixth{
+    color: white;
+    /* background-image: url('img/dotli.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+} 
+
+
+
+/* #sixth .qr{
+    width: 25%;
+    height: 25%;
+    
+} */
+
+
+#seventh{
+    margin: 5rem 0;
+}
+#seventh h1{
+    margin-bottom: 1rem;
+}
+
+.seventh-cen{
+    border: 1px solid green;
+    background-color: #060A19;
+    height: 5rem;
+}
+
+#eighth p{
+    padding: 0 15%;
+    margin-bottom: 4rem;
+
+}
+
+#eighth .card{
+    width: 21rem;
+    height:27rem ;
+}
+
+#eighth img{
+    padding-top: 1rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+#ninth{
+margin: 5rem 0;
+}
+
+#ninth p{
+    padding: 0 15%;
+}
+
+
+#tenth h1{
+    margin-bottom: 2rem;
+}
+
+#tenth .card{
+    background-color: transparent;
+    color: gray;
+    border: 1px solid white;
+
+}
+
+#tenth .btn{
+    color: white;
+    /* border: 1px solid green; */
+}
+
+
+#eleven > div{
+    padding: 2rem 0 3rem 0;
+}
+
+
+#eleven hr{
+    border: 1px solid white;
+}
+
+
+
+footer {
+    margin: 1rem 5rem;;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-left p{
+    margin-top: 1.5rem ;
+    margin-bottom: -0.01rem;
+    font-size: smaller;
+    color: white;
+}
+
+.footer-right{
+    margin-top: 1rem;
+}
+
+.footer-right a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1.5rem;
+
+}
+
+.footer-right img{
+    margin:1.5rem 0 2.3rem 3rem ;
+}
+
+.footer-right p{
+    color: white;
+}
